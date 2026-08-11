@@ -1,3 +1,5 @@
+import orderTotal from "./order-total.js"
+
 if (orderTotal({
         items: [
             {name: 'Dragon food', price: 8},
@@ -15,3 +17,20 @@ if (orderTotal({
 }) !== 60){
     throw new Error('check fail: happy path IExample2)')
 }
+
+if (orderTotal({
+    items: [
+        {'name': 'Dragon candy', price: 2, quantity: 3}
+    ]
+}) !== 6){
+    throw new Error('check fail: quantity')
+}
+
+if (orderTotal({
+    items: [
+        {'name': 'Dragon candy', price: 2}
+    ]
+}) !== 2){
+    throw new Error('check fail: price')
+}
+
