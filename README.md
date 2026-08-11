@@ -1,3 +1,6 @@
+## Description
+This is a follow along with the "Fun Fun Function" Test runners playlist and the Jest oficial documentation practice part
+
 ## Installs
 
 ## Attention:
@@ -17,6 +20,6 @@ now you will use import/export syntax instead require/module.exports
 
 ----
 
-git config --global core.autocrlf false
+Avoid problem with formating files between Windows and Unix: git config --global core.autocrlf false
 
-npm install --save-dev jest
+Install Jest as a dependencie adding devDependencies at package.json and dowloading pacckages for node_modules: npm install --save-dev jest
