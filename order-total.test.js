@@ -26,3 +26,12 @@ it('Quantity', () => {
         ]
     })).toBe(6)
 });
+
+it('No quantity', () => {
+    expect(orderTotal({
+        items: [
+            {'name': 'Dragon candy', price: 2}
+        ]
+    })).toBe(2)
+});
+
