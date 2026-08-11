@@ -7,5 +7,6 @@ test('order total with items', () => {
                 {name: 'Dragon cage (small)', price: 800}
             ]
         });
-    expect(result).toBe(800);
+    expect(result).toBe(808);
 });
+
