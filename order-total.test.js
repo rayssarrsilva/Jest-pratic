@@ -10,3 +10,10 @@ test('order total with items', () => {
     expect(result).toBe(808);
 });
 
+it('Quantity', () => {
+    expect(orderTotal({
+        items: [
+            {'name': 'Dragon candy', price: 2, quantity: 3 }
+        ]
+    })).toBe(6)
+});
