@@ -10,6 +10,15 @@ test('order total with items', () => {
     expect(result).toBe(808);
 });
 
+test('sum total itens', () => {
+    const result = orderTotal({
+        items: [
+        {name: 'Dragon collar', price: 20},
+        {name: 'Dragon chew toy', price: 40}        ]
+    });
+    expect(result).toBe(60);
+});
+
 it('Quantity', () => {
     expect(orderTotal({
         items: [
