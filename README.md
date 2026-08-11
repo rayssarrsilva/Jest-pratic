@@ -23,3 +23,9 @@ now you will use import/export syntax instead require/module.exports
 Avoid problem with formating files between Windows and Unix: git config --global core.autocrlf false
 
 Install Jest as a dependencie adding devDependencies at package.json and dowloading pacckages for node_modules: npm install --save-dev jest
+
+## Run
+To run in your machine the test.js files you just need to save them as we have a watchAll script in the package.json or run npm test
+
+## Contributions
+All kind of contribution are welcome.
