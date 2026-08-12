@@ -1,4 +1,4 @@
-import orderTotal from "./order-total.js"
+import orderTotal from "../order/order-total.js"
 
 if (orderTotal({
         items: [

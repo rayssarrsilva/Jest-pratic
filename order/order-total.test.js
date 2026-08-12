@@ -1,4 +1,4 @@
-import orderTotal from "..order/orderTotal.js";
+import orderTotal from "../order/order-total.js";
 
 test('order total with items', () => {    
     const result = orderTotal({
