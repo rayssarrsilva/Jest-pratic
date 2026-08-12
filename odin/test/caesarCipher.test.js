@@ -1,9 +1,11 @@
+import caesarCipher from "../func/caesarCipher.js";
+
 test('test wrapping', () => {
     expect(caesarCipher('xyz', 3)).toBe('abc');
 });
 
 test('case preservation', () => {
-    expect(caesarCipher('HeLLo', 3)).toBe('khOOr');
+    expect(caesarCipher('HeLLo', 3)).toBe('KhOOr');
 });
 
 test('punctuation', () => {
