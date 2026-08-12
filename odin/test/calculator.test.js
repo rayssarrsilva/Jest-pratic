@@ -5,3 +5,13 @@ test('sum two values', () => {
 test('sum two float values', () => {
     expect(calculator.sum(5.4, 9.3)).toBe(14.7);
 });
+
+test('subtract two float values', () => {
+    expect(calculator.sum(5.4, 9.3)).toBe(14.7);
+});
+
+test('subtract two values', () => {
+    expect(calculator.sum(5, 9)).toBe(14);
+});
+
+
