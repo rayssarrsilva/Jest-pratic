@@ -1,5 +1,26 @@
+# JavaScript Testing Practice
+
 ## Description
-This is a follow along with the "Fun Fun Function" Test runners playlist and the Jest oficial documentation practice part
+
+This repository contains JavaScript testing exercises and practice based on the **Fun Fun Function Test Runners playlist**, the **official Jest documentation**, and **The Odin Project's JavaScript Testing Practice** assignment.
+
+The goal of this project is to practice automated testing with Jest and strengthen fundamental JavaScript concepts through test-driven development.
+
+The exercises include:
+
+- Capitalizing strings
+- Reversing strings
+- Caesar Cipher
+- Array analysis
+- Calculator functions
+- Testing edge cases and expected behavior
+
+## Technologies
+
+- JavaScript
+- Jest
+- Babel
+- ES Modules
 
 ## Installs
 
@@ -29,3 +50,7 @@ To run in your machine the test.js files you just need to save them as we have a
 
 ## Contributions
 All kind of contribution are welcome.
+
+## Credits
+https://crypto.interactive-maths.com/caesar-shift-cipher.html
+https://www.theodinproject.com/lessons/node-path-javascript-testing-practice
