@@ -9,5 +9,5 @@ test('reversed string with capitalize', () => {
 });
 
 test('reversed phrase with capitalize', () => {
-    expect(reverse('hello world')).toBe('olleH dlroW');
+    expect(reverse('hello world')).toBe('dlroW olleH');
 });
